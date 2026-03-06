@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Cumpleaños, Mi Amor</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <audio id="musicaFondo" loop preload="auto">
+    <source src="musica.mp3" type="audio/mpeg">
+</audio>
+    <div id="particles"></div>
+
+    <section class="hero-section">
+        <div class="hero-content" data-aos="zoom-in">
+            <h1>🎂¡Feliz Cumpleaños! 🎂</h1>
+            <p>Para la persona que hace mi mundo más brillante.</p>
+            <button class="cta-button" onclick="scrollToSection('gallery')">
+                Empezar la celebración 🎉
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <span>⬇️</span>
+        </div>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">¡GALERÍA DE ESTA PRECIOSA!</h2>
+            <div class="gallery-grid">
+                
+                <div class="photo-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="photo-container">
+                        <img src="foto1.jpeg" alt="Recuerdo">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">PRECIOSA <3 </div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="photo-container">
+                        <img src="foto2.jpeg" alt="Recuerdo">
+                        <div class="photo-overlay">
+                            <div class="photo-caption"> HERMOSA <3 </div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="photo-container">
+                        <img src="foto3.jpeg" alt="Recuerdo">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">BELLA <3 </div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="photo-container">
+                        <img src="foto4.jpeg" alt="Recuerdo">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">ENCANTADORA <3 </div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="photo-container">
+                        <img src="foto5.jpeg" alt="Recuerdo">
+                        <div class="photo-overlay">
+                            <div class="photo-caption"> FABULOSA <3 </div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="photo-container">
+                        <img src="foto6.jpeg" alt="Recuerdo">
+                        <div class="photo-overlay">
+                            <div class="photo-caption"> LINDA <3 </div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="message-section" id="message">
+        <div class="container">
+            <div class="message-card" data-aos="flip-up">
+                <h2 class="section-title">Un mensaje especial para ti</h2>
+                <div class="message-content">
+                    <p class="message-text">"Hoy es un día muy especial para ti, porque celebras tus 22 años. No quería dejar pasar esta fecha sin dedicarte unas palabras, porque eres alguien muy importante para mí.
+                        Con el paso del tiempo tuve la oportunidad de conocerte más y de compartir muchos momentos contigo, momentos que guardo con mucho cariño.
+                        A lo largo de estos años he podido ver la gran mujer que eres: una mujer hermosa, fuerte, trabajadora y que siempre lucha por alcanzar cada meta que se propone. Esa forma de ser tuya es algo que admiro mucho, porque demuestra lo valiente y dedicada que eres en todo lo que haces.Me alegra mucho que la vida nos haya permitido coincidir y poder compartir tantos momentos. Eres una persona que deja huella, alguien que realmente se vuelve importante en la vida de quienes tienen la suerte de conocerte.
+                        Hoy solo deseo que este nuevo año que comienzas esté lleno de alegrías, oportunidades, sueños cumplidos y muchos momentos hermosos. Que la vida siempre te regale motivos para sonreír y que nunca pierdas esa esencia tan especial que te hace única.
+                        Feliz cumpleaños. Espero que este día sea tan bonito como tú lo eres, y que los 22 te traigan muchas cosas buenas."</p>
+                    <p class="message-text">"Hoy es un día muy especial para ti, porque celebras tus 22 años. No quería dejar pasar esta fecha sin dedicarte unas palabras, porque eres alguien muy importante para mí.
+                         Con el paso del tiempo tuve la oportunidad de conocerte más y de compartir muchos momentos contigo, momentos que guardo con mucho cariño.
+                         A lo largo de estos años he podido ver la gran mujer que eres: una mujer hermosa, fuerte, trabajadora y que siempre lucha por alcanzar cada meta que se propone. Esa forma de ser tuya es algo que admiro mucho, porque demuestra lo valiente y dedicada que eres en todo lo que haces.
+                         Me alegra mucho que la vida nos haya permitido coincidir y poder compartir tantos momentos. Eres una persona que deja huella, alguien que realmente se vuelve importante en la vida de quienes tienen la suerte de conocerte.
+                         Hoy solo deseo que este nuevo año que comienzas esté lleno de alegrías, oportunidades, sueños cumplidos y muchos momentos hermosos. Que la vida siempre te regale motivos para sonreír y que nunca pierdas esa esencia tan especial que te hace única.
+                         Feliz cumpleaños. Espero que este día sea tan bonito como tú lo eres, y que los 22 te traigan muchas cosas buenas."</p>
+                    <p class="message-signature">¡Feliz Cumpleaños! ❤️</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Hecho con amor del futuro ingeniero❤️</p>
+    </footer>
+
+    <button id="musicToggle" onclick="toggleMusic()">🔊</button>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
